@@ -48,7 +48,7 @@ const Experience = () => {
           alt=""
         />
         <img
-          className="img-extension absolute top-[305rem] right-[10rem]"
+          className="img-extension absolute top-[310rem] right-[10rem]"
           src="https://www.google.com/chrome/static/images/dev-components/extensions-icon.png"
           alt=""
         />
@@ -58,13 +58,13 @@ const Experience = () => {
           alt=""
         />
         <img
-          className="img-extension absolute top-[333rem] right-[10rem]"
+          className="img-extension absolute top-[336rem] right-[10rem]"
           src="https://www.google.com/chrome/static/images/dev-components/extensions-paint.png"
           alt=""
         />
 
         <img
-          className="img-extension absolute top-[333rem] left-[45rem]"
+          className="img-extension absolute top-[336rem] left-[45rem]"
           src="https://www.google.com/chrome/static/images/dev-components/extensions-person.png"
           alt=""
         />
