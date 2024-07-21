@@ -6,11 +6,11 @@ import gsap from "gsap";
 
 const DiscoverSec = () => {
   useGSAP(() => {
-    gsap.from(".icon-image", {
-      scale: 0,
+    gsap.from(".icon", {
+      scaleX: 0,
       opacity: 0,
       duration: 1,
-      stagger: 0.5,
+      // stagger: 0.5,
     });
   }, []);
   return (
@@ -63,7 +63,7 @@ const DiscoverSec = () => {
             </div>
             <div>
               <img
-                className="absolute  bottom-16 right-14 w-[170px] h-[170px]"
+                className="absolute icon bottom-16 right-14 w-[170px] h-[170px]"
                 src={chrome}
                 alt=""
               />

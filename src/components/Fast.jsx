@@ -13,7 +13,7 @@ const Fast = () => {
       scrollTrigger: {
         trigger: ".video",
         start: "20% center",
-        end: "bottom 100%",
+        end: "bottom 40%",
         // markers: true,
         pin: true,
         scrub: 3,
@@ -44,7 +44,7 @@ const Fast = () => {
         {/* <div> */}
           <video
             loop autoPlay muted
-            className="lg:left-[10rem] lg:top-[455rem] video lg:absolute rounded-xl w-[70rem] h-[35rem]"
+            className="lg:left-[10rem] lg:top-[475rem] video lg:absolute rounded-xl w-[70rem] h-[35rem]"
             src={video}
           ></video>
         {/* </div> */}

@@ -12,8 +12,8 @@ const YoursSec = () => {
       diration: 0.5,
       scrollTrigger: {
         trigger: ".parallax-image",
-        start: "top 25%",
-        end: "bottom 5%",
+        start: "top center",
+        end: "bottom 40%",
         // markers: true,
         pin: true,
         scrub: 1,
