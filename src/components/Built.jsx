@@ -16,8 +16,8 @@ const Built = () => {
           from chrome
         </div>
       </div>
-      <div className="bg-yellow-100 rounded-lg sm:w-[95%] sm:m-auto">
-        <div className="flex justify-around items-center pt-[2rem] sm:flex-col sm:items-center">
+      <div className="bg-yellow-100 rounded-lg l sm:w-[95%] sm:m-auto">
+        <div className="flex lg:pl-[10rem] justify-around items-center pt-[2rem] lg:flex-row sm:flex-col sm:items-center">
           <div>
             <p>GOOGLE AI</p>{" "}
             <h1 className="lg:text-5xl sm:text-[2rem] font-bold w-[28rem]">
@@ -41,7 +41,7 @@ const Built = () => {
       </div>
 
       <div className="mt-[3rem]">
-        <div className="first  sm:flex-col flex justify-around ">
+        <div className="first lg:flex-row sm:flex-col flex justify-around ">
           <div className="relative sm:m-auto sm:w-[90%] bg-[#1A73E8] lg:w-[40%] h-[42rem] rounded-xl text-white p-[4rem]">
             {/* <div> */}
 

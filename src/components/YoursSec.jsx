@@ -14,7 +14,7 @@ const YoursSec = () => {
         trigger: ".parallax-image",
         start: "top 25%",
         end: "bottom 5%",
-        markers: true,
+        // markers: true,
         pin: true,
         scrub: 1,
       },

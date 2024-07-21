@@ -19,7 +19,7 @@ const Safe = () => {
 
       <section className="mt-[3rem]">
         <div className="">
-          <div className="first flex justify-around sm:flex sm:flex-col ">
+          <div className="first lg:flex-row flex justify-around sm:flex sm:flex-col ">
             <div className="relative sm:mb-[2rem] sm:w-[90%] sm:m-auto bg-[#1A73E8] lg:w-[40%] h-[42rem] rounded-xl text-white p-[4rem]">
               {/* <div> */}
 
@@ -67,7 +67,7 @@ const Safe = () => {
             </div>
           </div>
 
-          <div className=" second  flex justify-around sm:flex-col">
+          <div className=" second  lg:flex-row flex justify-around sm:flex-col">
             <div className="relative  mt-[6rem]   sm:w-[90%] sm:mb-[2rem] sm:m-auto lg:w-[40%] h-[36rem] border p-[3rem] rounded-xl border-blue-600 ">
               <p className="text-gray-600 font-medium">
                 ENHANCED SAFE BROWSING

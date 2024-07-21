@@ -64,13 +64,13 @@ const AnimatedImageBar = () => {
     >
       <img
         src={gallery1}
-        className="image w-[50rem] left-[-34rem] z-50 h-[30rem]  absolute lg:right-[85rem] lg:w-[65rem] lg:h-[30rem] "
+        className="image w-[50rem] left-[-54rem] z-50 h-[30rem]  absolute lg:right-[85rem] lg:w-[65rem] lg:h-[30rem] "
         alt=""
       />
 
       <img
         src={gallery2}
-        className="image w-[15rem] ml-14 h-[30rem] image-2 lg:w-full lg:h-[30rem] "
+        className="image w-[15rem]  h-[30rem] image-2 lg:w-full lg:h-[30rem] "
         alt=""
       />
       <img

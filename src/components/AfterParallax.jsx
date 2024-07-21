@@ -2,7 +2,7 @@ import React from "react";
 
 const AfterParallax = () => {
   return (
-    <section className="flex mt-16 items-center justify-around flex-col m-[2rem] gap-[2rem] sm:flex-col lg:flex-row ">
+    <section className="flex  mt-16 items-center justify-around flex-col m-[2rem] gap-[2rem] sm:flex-col lg:flex-row ">
       <div className="lg:w-[40%] w-[90%] " >
         <img
           className="rounded-lg "
