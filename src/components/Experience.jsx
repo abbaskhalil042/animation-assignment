@@ -21,8 +21,8 @@ const Experience = () => {
     });
   });
   return (
-    <section className=" flex jusctify-between m-auto  mt-16 ">
-      <div className="w-[30%] flex flex-col jusctify-start items-center flex-1 mt-16">
+    <section className=" flex jusctify-between m-auto sm:flex-col sm-m-auto  mt-16 ">
+      <div className="lg:w-[30%] flex flex-col jusctify-start items-center flex-1 mt-16">
         <h1 className="text-5xl font-medium w-[19rem] tracking-wide  mb-5">
           Extend your experience
         </h1>
@@ -35,7 +35,7 @@ const Experience = () => {
           Explore extention
         </button>
       </div>
-      <div className="w-[60%] ">
+      <div className="lg:w-[60%] ">
         <img
           id=""
           className="relative"
@@ -43,28 +43,28 @@ const Experience = () => {
           alt=""
         />
         <img
-          className="img-extension absolute top-[313rem] left-[37.8rem]"
+          className="img-extension sm:left-[1em] sm:top-[312rem] absolute top-[313rem] left-[37.8rem]"
           src="https://www.google.com/chrome/static/images/dev-components/extensions-shop.png"
           alt=""
         />
         <img
-          className="img-extension absolute top-[310rem] right-[10rem]"
+          className="img-extension absolute sm:left-[25rem] sm:top-[308rem] sm:w-[20%] top-[310rem] right-[10rem]"
           src="https://www.google.com/chrome/static/images/dev-components/extensions-icon.png"
           alt=""
         />
         <img
-          className="img-extension absolute top-[320rem] right-[2rem]"
+          className="img-extension absolute sm:top-[315rem] top-[320rem] right-[2rem]"
           src="https://www.google.com/chrome/static/images/dev-components/extensions-video.png"
           alt=""
         />
         <img
-          className="img-extension absolute top-[336rem] right-[10rem]"
+          className="img-extension absolute sm:top-[328rem] sm:right-[10rem] top-[336rem] right-[10rem]"
           src="https://www.google.com/chrome/static/images/dev-components/extensions-paint.png"
           alt=""
         />
 
         <img
-          className="img-extension absolute top-[336rem] left-[45rem]"
+          className="img-extension absolute sm:top-[328rem] sm:left-[10rem] top-[336rem] left-[45rem]"
           src="https://www.google.com/chrome/static/images/dev-components/extensions-person.png"
           alt=""
         />

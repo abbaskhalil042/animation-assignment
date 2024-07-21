@@ -12,7 +12,7 @@ const YoursSec = () => {
       diration: 0.5,
       scrollTrigger: {
         trigger: ".parallax-image",
-        start: "top 30%",
+        start: "top 25%",
         end: "bottom 5%",
         markers: true,
         pin: true,
@@ -29,7 +29,7 @@ const YoursSec = () => {
         <h2
           class="chr-headline-1"
           aria-label="Make it yours and take it with you"
-          className="text-5xl font-bold text-center "
+          className="lg:text-5xl sm:text-[3rem] text-[2rem] font-bold text-center "
         >
           Make it
           <span class="chr-highlight relative rounded-full text-red-500 pr-10  m-4 bg-red-200 py-[0.4rem] pb-3 text-4xl font-medium px-[4rem]">

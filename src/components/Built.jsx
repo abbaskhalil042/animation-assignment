@@ -2,10 +2,11 @@ import { Clock10 } from "lucide-react";
 import React from "react";
 
 const Built = () => {
+
   return (
     <div>
       <div>
-        <div className="text flex flex-col justify-center text-6xl font-bold mt-[5rem] items-center">
+        <div className="text flex flex-col justify-center text-6xl font-bold mb-[4rem] items-center">
           <h1 className="flex ">
             discover the latest
             <span className="text-yellow-600 bg-blue-100 px-[1.8rem] py-[.6rem] rounded-full m-2 flex text-5xl font-medium justify-center items-center  ">
@@ -15,22 +16,22 @@ const Built = () => {
           from chrome
         </div>
       </div>
-      <div className="bg-yellow-100">
-        <div className="flex justify-around items-center pt-[2rem]">
+      <div className="bg-yellow-100 rounded-lg sm:w-[95%] sm:m-auto">
+        <div className="flex justify-around items-center pt-[2rem] sm:flex-col sm:items-center">
           <div>
             <p>GOOGLE AI</p>{" "}
-            <h1 className="text-5xl font-bold w-[28rem]">
+            <h1 className="lg:text-5xl sm:text-[2rem] font-bold w-[28rem]">
               Access AI superpowers while you browse.
             </h1>
           </div>
-          <div className="w-[40rem]">
-            <p className="text-gray-600 text-1xl w-[28rem]">
+          <div className="w-[40rem] sm:w-[90%]">
+            <p className="text-gray-600 text-1xl w-[28rem] sm:ml-[3rem]">
            
               Google is integrating artificial intelligence to make our products
               more useful. We use AI for features like Search, Google Translate,
               and more, and we’re innovating new technologies responsibly.
             </p>
-            <a href="#" className="text-1xl mt-[1rem] text-blue-600 font-medium py-4 rounded-full"> Explore Google AI</a>
+            <a href="#" className="text-1xl mt-[1rem] text-blue-600 font-medium py-4 sm:ml-[3rem] rounded-full"> Explore Google AI</a>
           </div>
         </div>
         <img
@@ -40,8 +41,8 @@ const Built = () => {
       </div>
 
       <div className="mt-[3rem]">
-        <div className="first flex justify-around ">
-          <div className="relative  bg-[#1A73E8] w-[40%] h-[42rem] rounded-xl text-white p-[4rem]">
+        <div className="first  sm:flex-col flex justify-around ">
+          <div className="relative sm:m-auto sm:w-[90%] bg-[#1A73E8] lg:w-[40%] h-[42rem] rounded-xl text-white p-[4rem]">
             {/* <div> */}
 
             <a className="text-lg " href="#">
@@ -75,7 +76,7 @@ const Built = () => {
               <h1 className="text-3xl font-medium text-blue-600"> +</h1>
             </div>
           </div>
-          <div className="relative bg-[#E8F0FE] w-[40%] h-[42rem] rounded-xl pt-[4rem] flex justify-center">
+          <div className="relative sm:m-auto sm:w-[90%] bg-[#E8F0FE] sm:mt-[2rem] lg:w-[40%] h-[42rem] rounded-xl pt-[4rem] flex justify-center">
             <div className=" ">
               <p className="text-gray-600 font-medium">SAFETY CHECK</p>
               <h1 className="text-5xl font-bold w-[30rem] mt-4 mb-24 leading-14">

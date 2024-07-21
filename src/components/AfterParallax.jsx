@@ -2,15 +2,15 @@ import React from "react";
 
 const AfterParallax = () => {
   return (
-    <section className="flex mt-16 items-center justify-around  ">
-      <div className="w-[40%]">
+    <section className="flex mt-16 items-center justify-around flex-col m-[2rem] gap-[2rem] sm:flex-col lg:flex-row ">
+      <div className="lg:w-[40%] w-[90%] " >
         <img
-          className="rounded-lg"
+          className="rounded-lg "
           src="https://www.google.com/chrome/static/images/v2/accordion-timed/tab-sync-2x.webp"
           alt=""
         />
       </div>
-      <div className="accordian w-[40%] flex flex-col ">
+      <div className="accordian lg:w-[40%] flex flex-col ">
         <h2 className="text-3xl font-bold">Customise your Chrome</h2>
         <div className="mt-5">
           <h2 className="text-3xl font-bold" >Browse across devices</h2>

@@ -4,8 +4,8 @@ import React from "react";
 const Safe = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center mt-32 mb-18 ">
-        <p className="text-6xl font-bold flex justify-center items-center ">
+      <div className="flex flex-col sm:leading-3 items-center justify-center lg:mt-32 mb-18 ">
+        <p className="sm:text-[2.5rem]  text-6xl font-bold flex justify-center items-center ">
          
           Stay
           <span className="text-[#1A73E8] text-3xl ml-3 flex bg-blue-100 justify-center items-center px-[1rem] py-[.5rem] rounded-full ">
@@ -14,13 +14,13 @@ const Safe = () => {
         </p>
 
         <br />
-        <p className="text-6xl font-bold "> while you browse</p>
+        <p className="text-6xl font-bold sm:text-[2.5rem]"> while you browse</p>
       </div>
 
       <section className="mt-[3rem]">
-        <div>
-          <div className="first flex justify-around ">
-            <div className="relative  bg-[#1A73E8] w-[40%] h-[42rem] rounded-xl text-white p-[4rem]">
+        <div className="">
+          <div className="first flex justify-around sm:flex sm:flex-col ">
+            <div className="relative sm:mb-[2rem] sm:w-[90%] sm:m-auto bg-[#1A73E8] lg:w-[40%] h-[42rem] rounded-xl text-white p-[4rem]">
               {/* <div> */}
 
               <a className="text-lg " href="#">
@@ -54,7 +54,7 @@ const Safe = () => {
                 <h1 className="text-3xl font-medium text-blue-600"> +</h1>
               </div>
             </div>
-            <div className="relative bg-[#E8F0FE] w-[40%] h-[36rem] rounded-xl pt-[4rem] flex justify-center">
+            <div className="relative bg-[#E8F0FE] sm:mb-[2rem]  sm:w-[90%] sm:m-auto lg:w-[40%] h-[36rem] rounded-xl pt-[4rem] flex justify-center">
               <div className=" ">
                 <p className="text-gray-600 font-medium">SAFETY CHECK</p>
                 <h1 className="text-5xl font-bold w-[30rem] mt-4 mb-24 leading-14">
@@ -67,8 +67,8 @@ const Safe = () => {
             </div>
           </div>
 
-          <div className=" second  flex justify-around">
-            <div className="relative  mt-[6rem]  w-[40%] h-[36rem] border p-[3rem] rounded-xl border-blue-600 ">
+          <div className=" second  flex justify-around sm:flex-col">
+            <div className="relative  mt-[6rem]   sm:w-[90%] sm:mb-[2rem] sm:m-auto lg:w-[40%] h-[36rem] border p-[3rem] rounded-xl border-blue-600 ">
               <p className="text-gray-600 font-medium">
                 ENHANCED SAFE BROWSING
               </p>
@@ -79,7 +79,7 @@ const Safe = () => {
                 <h1 className="text-3xl font-medium text-gray-100"> +</h1>
               </div>
             </div>
-            <div className="relative  bg-[#1A73E8] w-[40%] h-[42rem] p-[2rem] rounded-xl text-white">
+            <div className="relative  sm:w-[90%] sm:m-auto bg-[#1A73E8] lg:w-[40%] h-[42rem] p-[2rem] rounded-xl text-white">
               <p className="text-white-600 font-medium">PRIVACY GUIDE</p>
               <h1 className="text-4xl font-bold w-[30rem] mt-4 mb-24 leading-14">
                 Keep your privacy under your control with easy-to-use settings.
