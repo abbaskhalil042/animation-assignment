@@ -14,7 +14,7 @@ const Fast = () => {
         trigger: ".video",
         start: "20% center",
         end: "bottom 100%",
-        markers: true,
+        // markers: true,
         pin: true,
         scrub: 2,
       },
