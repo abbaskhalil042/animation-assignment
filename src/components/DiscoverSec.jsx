@@ -29,7 +29,7 @@ const DiscoverSec = () => {
       <div className="flex sm:m-auto lg:flex-row sm:flex-col jusctify-center items-center mt-10">
         <div className="rounded-xl sm:mb-[1rem] sm:w-[90%]  sm:-auto relative right-card lg:w-[42%] m-auto h-[42rem] bg-[#E8F0FE] ">
           <div className=" pl-16 mt-10">
-            <p className="mb-5 text-sm">UPDATES</p>
+            <p className="mb-5 text-sm ">UPDATES</p>
 
             <h2 className="text-5xl font-bold">Automatic updates</h2>
             <p className="w-[89%] text-gray-500 text-lg mt-4 mb-4">

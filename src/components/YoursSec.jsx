@@ -25,15 +25,15 @@ const YoursSec = () => {
 
   return (
     <section>
-      <div className="flex flex-col items-center mt-10  ">
+      <div className=" flex flex-col items-center mt-10  ">
         <h2
           class="chr-headline-1"
           aria-label="Make it yours and take it with you"
-          className="lg:text-5xl sm:text-[3rem] text-[2rem] font-bold text-center "
+          className="lg:text-5xl sm:text-[2.3rem] text-[2rem] sm:leading-tight  font-bold text-center "
         >
           Make it
-          <span class="chr-highlight relative rounded-full text-red-500 pr-10  m-4 bg-red-200 py-[0.4rem] pb-3 text-4xl font-medium px-[4rem]">
-            <svg className="w-[100%] pl-1 h-[100%] inline absolute bottom-[-0.1rem]  right-[-0rem]">
+          <span class="chr-highlight sm:px-[1rem] sm:py-[0.5rem] relative rounded-full text-red-500 lg:pr-10  m-4 bg-red-200 lg:py-[0.4rem] lg:pb-3 lg:text-4xl font-medium lg:px-[4rem]">
+            <svg className="lg:w-[100%] sm:hidden pl-1 sm:w-[30%] lg:h-[100%]  inline absolute lg:bottom-[-0.1rem]  lg:right-[-0rem]">
               <g clipPath="url(#__lottie_element_104)">
                 <g
                   transform="matrix(1,0,0,1,33,4.184999942779541)"

@@ -26,7 +26,7 @@ const Safe = () => {
               <a className="text-lg " href="#">
                 PASSWORD MANAGER
               </a>
-              <h1 className="text-3xl font-bold w-[22rem] mt-4 mb-24">
+              <h1 className="lg:text-3xl sm:text-[2rem] sm:w-[20rem] font-bold w-[22rem] mt-4 mb-24">
                 Use strong passwords on every site.
               </h1>
               {/* </div> */}
@@ -45,7 +45,7 @@ const Safe = () => {
               </div>
               {/* <div> */}
               <img
-                className="absolute top-[14rem] left-[1rem] w-[50rem] h-[25rem] object-contain"
+                className="absolute lg:top-[14rem] lg:left-[1rem] w-[50rem] h-[25rem] sm:top-[16rem] sm:left-[2rem] object-contain"
                 src="https://www.google.com/chrome/static/images/v2/gallery/passwords-fill-2-2x.webp"
                 alt=""
               />
@@ -54,10 +54,10 @@ const Safe = () => {
                 <h1 className="text-3xl font-medium text-blue-600"> +</h1>
               </div>
             </div>
-            <div className="relative bg-[#E8F0FE] sm:mb-[2rem]  sm:w-[90%] sm:m-auto lg:w-[40%] h-[36rem] rounded-xl pt-[4rem] flex justify-center">
-              <div className=" ">
+            <div className="relative bg-[#E8F0FE] sm:mb-[2rem]  sm:w-[90%] sm:m-auto lg:w-[40%] lg:h-[36rem] rounded-xl pt-[4rem] flex justify-center">
+              <div className="sm:ml-[1rem]  ">
                 <p className="text-gray-600 font-medium">SAFETY CHECK</p>
-                <h1 className="text-5xl font-bold w-[30rem] mt-4 mb-24 leading-14">
+                <h1 className="lg:text-5xl sm:text-[2rem]  font-bold lg:w-[30rem] mt-4 mb-24 sm:leading-10 lg:leading-14">
                   Check your safety level in real time with just one click.
                 </h1>
               </div>
@@ -68,24 +68,24 @@ const Safe = () => {
           </div>
 
           <div className=" second  lg:flex-row flex justify-around sm:flex-col">
-            <div className="relative  mt-[6rem]   sm:w-[90%] sm:mb-[2rem] sm:m-auto lg:w-[40%] h-[36rem] border p-[3rem] rounded-xl border-blue-600 ">
-              <p className="text-gray-600 font-medium">
+            <div className="relative  mt-[6rem]   sm:w-[90%] sm:mb-[2rem] sm:m-auto lg:w-[40%] lg:h-[36rem] border p-[3rem] rounded-xl border-blue-600 ">
+              <p className="text-gray-600  font-medium">
                 ENHANCED SAFE BROWSING
               </p>
-              <h1 className="text-5xl font-bold w-[30rem] mt-4 mb-24 leading-14">
+              <h1 className="lg:text-5xl sm:text-[2rem]  font-bold lg:w-[30rem] mt-4 mb-24 leading-14">
                 Browse with the confidence that you're staying safer online.
               </h1>
               <div className="absolute bottom-[2rem] right-[2rem] bg-[#1A73E8] w-[2rem] h-[2rem] flex items-center justify-center  rounded-full p-[2rem] text-center">
                 <h1 className="text-3xl font-medium text-gray-100"> +</h1>
               </div>
             </div>
-            <div className="relative  sm:w-[90%] sm:m-auto bg-[#1A73E8] lg:w-[40%] h-[42rem] p-[2rem] rounded-xl text-white">
+            <div className="relative  sm:w-[90%] sm:h-[40rem] sm:m-auto bg-[#1A73E8] lg:w-[40%] lg:h-[42rem] p-[2rem] rounded-xl text-white">
               <p className="text-white-600 font-medium">PRIVACY GUIDE</p>
-              <h1 className="text-4xl font-bold w-[30rem] mt-4 mb-24 leading-14">
+              <h1 className="lg:text-4xl sm:text-[2rem] font-bold lg:w-[30rem] mt-4 mb-24 leading-14">
                 Keep your privacy under your control with easy-to-use settings.
               </h1>
               <img
-                className="w-[20rem] h-[20rem] object-contain"
+                className="lg:w-[20rem] lg:h-[20rem] object-contain"
                 src="https://www.google.com/chrome/static/images/v2/gallery/google-safety-2x.webp"
                 alt=""
               />
