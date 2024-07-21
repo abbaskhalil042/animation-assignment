@@ -26,8 +26,8 @@ const DiscoverSec = () => {
     
       </div>
 
-      <div className="flex sm:m-auto lg:flex-row sm:flex-col jusctify-center items-center mt-10">
-        <div className="rounded-xl sm:mb-[1rem] sm:w-[90%]  sm:-auto relative right-card lg:w-[42%] m-auto h-[42rem] bg-[#E8F0FE] ">
+      <div className="flex lg:w-full sm:m-auto lg:flex-row sm:flex-col jusctify-center items-center mt-10">
+        <div className="rounded-xl lg:w-fit sm:mb-[1rem] sm:w-[90%] sm:-auto relative right-card lg:w-[42%] m-auto h-[42rem] bg-[#E8F0FE] ">
           <div className=" pl-16 mt-10">
             <p className="mb-5 text-sm ">UPDATES</p>
 

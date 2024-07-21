@@ -60,27 +60,27 @@ const AnimatedImageBar = () => {
   return (
     <section
       id="section"
-      className="relative main overflow-hidden overscroll-contain flex flex-grow lg:overflow-hidden "
+      className="relative main mt-[1rem] overflow-hidden overscroll-contain flex flex-grow lg:overflow-hidden "
     >
       <img
         src={gallery1}
-        className="image w-[50rem] left-[-54rem] z-50 h-[30rem]  absolute lg:right-[85rem] lg:w-[65rem] lg:h-[30rem] "
+        className="image z-10 left-[-34rem] h-[30rem]  absolute lg:right-[20rem] lg:w-[65rem] lg:h-[30rem] "
         alt=""
       />
 
       <img
         src={gallery2}
-        className="image w-[15rem]  h-[30rem] image-2 lg:w-full lg:h-[30rem] "
+        className="image w-[15rem] ml-14 h-[30rem] image-2 lg:w-full lg:h-[30rem] "
         alt=""
       />
       <img
         src={gallery3}
-        className="image image-3 z-10 w-[50rem]  h-[30rem] lg:w-[65rem] lg:h-[30rem] lg:mt-10 lg:mr-5 "
+        className="image image-3 z-10 w-[50rem]  h-[30rem] lg:w-[65rem] lg:h-[30rem] lg:m-[5rem]  "
         alt=""
       />
       <img
         src={gallery4}
-        className="image image-4 ml-[8rem] object-contain lg:w-full lg:h-[30rem] shadow shadow-gray-6 mb-10 rounded-lg mr-4 "
+        className="image image-4 ml-[8rem] h-[30rem] object-contain lg:w-full lg:h-[30rem] shadow shadow-gray-6 mb-10 rounded-lg mr-4 "
         alt=""
       />
       <img src={gallery5} className="image image-5 lg:w-full lg:h-[30rem]" alt="" />
