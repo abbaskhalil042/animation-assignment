@@ -26,8 +26,11 @@ const DiscoverSec = () => {
     
       </div>
 
-      <div className="flex lg:w-full sm:m-auto lg:flex-row sm:flex-col jusctify-center items-center mt-10">
-        <div className="rounded-xl lg:w-fit sm:mb-[1rem] sm:w-[90%] sm:-auto relative right-card lg:w-[42%] m-auto h-[42rem] bg-[#E8F0FE] ">
+<>
+
+
+      <div className="flex lg:flex-row sm:m-auto sm:flex-col jusctify-center items-center mt-10">
+        <div className="rounded-xl  sm:mb-[1rem] sm:w-[90%] sm:-auto relative right-card lg:w-[42%] m-auto h-[42rem] bg-[#E8F0FE] ">
           <div className=" pl-16 mt-10">
             <p className="mb-5 text-sm ">UPDATES</p>
 
@@ -43,7 +46,7 @@ const DiscoverSec = () => {
 
           <div>
             <img
-              className="icon-image absolute bottom-0 rounded-xl"
+              className="icon-image w-[30rem] absolute bottom-0 rounded-xl"
               src="https://www.google.com/chrome/static/images/engagement-homepage/updates/updates-2x.png"
               alt=""
             />
@@ -70,6 +73,7 @@ const DiscoverSec = () => {
           </div>
         </div>
       </div>
+      </>
     </section>
   );
 };
