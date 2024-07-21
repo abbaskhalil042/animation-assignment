@@ -42,7 +42,7 @@ const Experience = () => {
           src="https://www.google.com/chrome/static/images/dev-components/extensions-ui-2x.png"
           alt=""
         />
-        <div className="sm:hidden">
+        <div className="lg:block sm:hidden">
           <img
             className="img-extension sm:left-[2rem] sm:top-[373rem] absolute lg:top-[303rem] lg:left-[37.8rem]"
             src="https://www.google.com/chrome/static/images/dev-components/extensions-shop.png"

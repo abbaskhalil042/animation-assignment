@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import chrome from "../assets/chrome.png";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 const Hero = () => {
   const [isFixed, setIsFixed] = useState(false);
 
@@ -19,8 +21,17 @@ const Hero = () => {
     };
   }, []);
 
+  // useGSAP(() => {
+  //   gsap.from(".hero", {
+  //     opacity: 0,
+  //     scale: 0,
+  //     delay: 0.5,
+  //     duration: 1,
+  //   });
+  // });
+
   return (
-    <div className="flex flex-col items-center  justify-center mt-24">
+    <div className=" hero flex flex-col items-center  justify-center mt-24">
       <div className="flex flex-col items-center">
         <img className="w-16 h-16" src={chrome} alt="" />
         <div className="lg:text-[4rem] lg:W-[2rem] text-[2.8rem] leading-[3rem]  text-center font-bold lg:leading-[4.6rem]">
