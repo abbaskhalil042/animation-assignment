@@ -25,8 +25,8 @@ const Fast = () => {
       <div className="text flex flex-col  sm:text-[2.5rem] justify-center lg:text-6xl font-bold mt-[5rem] items-center">
         <h1 className="flex ">
           The
-          <span className="text-green-600 bg-green-100 px-[1.8rem] py-[.6rem] rounded-full m-2 flex sm:text-3xl lg:text-5xl font-medium justify-center items-center  ">
-            <Gauge className="mr-2" size={35} /> fast
+          <span className="text-green-600 bg-green-100 sm:px-[1rem] lg:px-[1.8rem] lg:py-[.6rem] rounded-full m-2 flex sm:text-3xl lg:text-5xl font-medium justify-center items-center  ">
+            <Gauge className="mr-2 sm:w-[2rem]" size={35} /> fast
           </span>
           way to do <br />
         </h1>
