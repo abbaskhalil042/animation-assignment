@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import { DoorClosed, Menu, X } from "lucide-react";
 import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -38,10 +38,14 @@ const Navbar = () => {
         }`}
       >
              <div className="flex items-center start-0">
-            <Menu
-              onClick={openNavbar}
-              className=" fixed z-10 cursor-pointer lg:hidden"
-            />
+
+              {
+                openNav ? <><X onClick={openNavbar} className="cursor-pointer lg:hidden" /></> :    <Menu
+                onClick={openNavbar}
+                className=" fixed z-10 cursor-pointer lg:hidden"
+              />
+              }
+        
             <img
               className="w-[134px] h-[40px] fixed ml-10"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Google_Chrome_logo_and_wordmark_%282015%29.png/640px-Google_Chrome_logo_and_wordmark_%282015%29.png"
@@ -50,7 +54,7 @@ const Navbar = () => {
           </div>
         <div className="flex">
           <div
-            className={`shadow-md mt-20 bg-red-50 items-center cursor-pointer lg:hidden ${
+            className={` mt-10  items-center cursor-pointer lg:hidden ${
               openNav ? "flex" : "hidden"
             }`}
           >
