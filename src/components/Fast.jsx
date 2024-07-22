@@ -8,22 +8,6 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 const Fast = () => {
-  // useGSAP(() => {
-  //   gsap.from(".video", {
-  //     scale: 0.3,
-  //     opacity: 0,
-  //     diration: 0.5,
-  //     scrollTrigger: {
-  //       trigger: ".video",
-  //       start: "20% center",
-  //       end: "bottom 40%",
-  //       // markers: true,
-  //       pin: true,
-  //       scrub: 3,
-  //     },
-  //   });
-  // });
-
   const textRef = useRef(null);
   const videoRef = useRef(null);
 
@@ -47,8 +31,6 @@ const Fast = () => {
         start: "top center",
         end: "top -150%",
         scrub: 3,
-
-   
       },
     });
   }, []);
@@ -64,23 +46,6 @@ const Fast = () => {
         </h1>
         things online
       </div>
-      {/* <div className=" image w-[100%] flex justify-center items-center"> */}
-      {/* <div className="w-[50rem] mt-[3rem]"> */}
-      {/* <p className="lg:relative lg:block sm:hidden text-[1.5rem] font-medium w-[]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            dicta aspernatur omnis quia hic inventore illo doloremque nulla
-            necessitatibus, voluptatibus eum eaque esse praesentium explicabo
-            voluptas molestias quam beatae est!
-          </p> */}
-      {/* </div> */}
-      {/* <div> */}
-      {/* <video
-            ref={textRefs}
-            loop autoPlay muted
-            className="lg:left-[10rem] lg:top-[475rem] video lg:absolute rounded-xl w-[70rem] h-[35rem]"
-            src={video}
-          ></video> */}
-      {/* </div> */}
 
       <div className="container w-[100%] mt-[6rem] ">
         <div className="video-container" ref={videoRef}>
