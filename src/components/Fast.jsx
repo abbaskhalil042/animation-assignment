@@ -58,17 +58,6 @@ const Fast = () => {
             width="100%"
           />
         </div>
-        <div
-          className="text-container m-auto w-[50rem] lg:ml-[20rem] flex justify-center items-center"
-          ref={textRef}
-        >
-          <p className="lg:relative lg:block sm:hidden text-[1.5rem] font-medium w-full m-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            dicta aspernatur omnis quia hic inventore illo doloremque nulla
-            necessitatibus, voluptatibus eum eaque esse praesentium explicabo
-            voluptas molestias quam beatae est!
-          </p>
-        </div>
       </div>
       {/* </div> */}
     </section>
